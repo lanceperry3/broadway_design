@@ -9,7 +9,6 @@ body {
   text-align: center;
   color: white;
 }
-
 .centered {
   position: absolute;
   top: 45%;
@@ -20,10 +19,50 @@ body {
   text-decoration: underline;
   font-size: 18px;
 }
+.container_two {
+  position: relative;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+
+
+}
+.container_two img {
+
+  position: relative;
+  top: 10%;
+  transform: translateY(-45%);
+
+}
+.centered_two {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
 
+}
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+p {
+  font-size: 14px;
 }
